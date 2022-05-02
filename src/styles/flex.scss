@@ -1,0 +1,24 @@
+.flex-left{
+    display: inline-flex;
+    justify-content: flex-start;
+
+}
+
+.flex-right{
+    display: inline-flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+
+.flex-center{
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.flex-col{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
