@@ -1,0 +1,60 @@
+.main-div-size{
+    width: 840px;
+    height: 1080px;
+    margin-left: 120px;
+    margin-right: 120px;
+    overflow-y: scroll;   
+}
+
+.main-div-size::-webkit-scrollbar{
+    display: none;
+}
+
+
+.MainSelect-FlexWrap{
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.Select-Main-name{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 21px;
+}
+
+.Select-Main-detail{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #b6b6b6;
+    font-size: 15px;
+}
+.Select-Main-price{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 28px;
+    color: green;
+}
+
+.Select-Main-PromotionDate{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 21px;
+    color: #ff5c39;
+}
+
+
+.select-div-size{
+    display: inline-block;
+    width: 800px;
+    height: auto;
+}
+
+
+.select-div-size div{
+    display: inline-block;
+}

@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
-import Main from './components/main';
-import Header from './components/header';
-import Footer from './components/footer';
+import Home from './pages/home/home';
+import Sale_order_home from './pages/sale-order-home/Sale_order_home';
 import "react-router-dom";
-import {Route , BrowserRouter as Roter}from 'react-router-dom';
+import "./styles/reset.scss";
+import "./styles/_variables.scss";
+import {Route , BrowserRouter , Routes}from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-        <Main/>
+      <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="/Sale_order_home" element={<Sale_order_home/>}></Route>
+        </Routes>
+      </BrowserRouter>
     );
   }
 }

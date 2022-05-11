@@ -1,0 +1,71 @@
+#home-header-divbox{
+    width: 1080px;
+    height: 90px;
+    padding-top: 12px;
+}
+
+#home-header-flexleft{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+#home-header-flexright{
+    display: inline-flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+
+#home-flex-col{
+    display: flex;
+    flex-direction: column;
+    margin-top:auto;
+}
+
+#home-footer-order{
+    background-color: #008938;
+    width: 1080px;
+    height: 165px;
+    
+    position:absolute;
+    bottom:0;
+
+    padding-top: 50px;
+    text-align: center;
+}
+
+#home-footer-text_divbox{
+    width: 1080px;
+    float: left;
+    padding-top: 40px;
+}
+
+
+#home-footer-kiosk_text{
+    color: green;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+#home-footer-counter_text{
+    margin-right: 30px;
+    margin-left: 73px;
+    color: #988100;
+}
+
+
+#home-order-text-kr{
+    font-size: 50px;
+    color: #fff;
+}
+
+#home-order-text-en{
+    font-size: 32px;
+    color: #97d700;
+}
+
+#home-footer-counter-detail_text{
+    float: left;
+}
+
+

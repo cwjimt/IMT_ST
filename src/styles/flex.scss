@@ -1,5 +1,5 @@
 .flex-left{
-    display: inline-flex;
+    display: flex;
     justify-content: flex-start;
 
 }
@@ -7,7 +7,6 @@
 .flex-right{
     display: inline-flex;
     justify-content: flex-end;
-    float: right;
 }
 
 
@@ -21,4 +20,22 @@
     display: inline-flex;
     flex-direction: column;
     
+}
+
+.felx{
+    display: flex;
+}
+
+.flex-bet{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float:right;
 }
